@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: 5238573575886943739
     second: Dinossauro_Morto
+  - first:
+      213: -7363386814940793629
+    second: Dinossauro_Abaixado1
+  - first:
+      213: -8878970236863853256
+    second: Dinossauro_Abaixado2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -194,7 +200,7 @@ TextureImporter:
         width: 88
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,6 +208,48 @@ TextureImporter:
       bones: []
       spriteID: bf53d7089e623b840800000000000000
       internalID: 5238573575886943739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinossauro_Abaixado1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 118
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4b8a764beffc990800000000000000
+      internalID: -7363386814940793629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinossauro_Abaixado2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 118
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dc674cc9f87c480800000000000000
+      internalID: -8878970236863853256
       vertices: []
       indices: 
       edges: []
