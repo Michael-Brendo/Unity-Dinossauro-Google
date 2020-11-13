@@ -2,19 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Jogador : MonoBehaviour
 {
     public Rigidbody2D rb;
+
     public float forcaPulo;
+
     public float distanciaMinimaChao = 1;
+
     private bool estaNoChao;
+
     public LayerMask layerChao;
 
+    private float pontos;
 
-    // Update is called once per frame
+    public float multiplicadorPontos = 1;
+
+    public Text pontosText;
+
+
     void Update()
     {
+        pontos += Time.deltaTime * multiplicadorPontos;
+
+        pontosText.text = $"Pontos:  {Mathf.FloorToInt(pontos)}";
+
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             Pular();
