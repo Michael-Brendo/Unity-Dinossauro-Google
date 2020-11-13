@@ -433,6 +433,7 @@ GameObject:
   - component: {fileID: 1637251119}
   - component: {fileID: 1637251118}
   - component: {fileID: 1637251122}
+  - component: {fileID: 1637251123}
   m_Layer: 0
   m_Name: Dinossauro
   m_TagString: Untagged
@@ -590,6 +591,25 @@ MonoBehaviour:
     m_Bits: 0
   multiplicadorPontos: 1
   pontosText: {fileID: 1355544774}
+--- !u!95 &1637251123
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637251117}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a1101d6256aeaa4e9bb6d172b1e0075, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1752134711
 GameObject:
   m_ObjectHideFlags: 0
