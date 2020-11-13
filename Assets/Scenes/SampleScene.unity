@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direcao: {x: -1, y: 0}
-  velocidade: 3
+  velocidade: 4.5
 --- !u!61 &839286496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -506,6 +506,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1637251119}
   forcaPulo: 800
+  distanciaMinimaChao: 1
+  layerChao:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1793952188
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direcao: {x: -1, y: 0}
-  velocidade: 3
+  velocidade: 4.5
 --- !u!114 &1793952193
 MonoBehaviour:
   m_ObjectHideFlags: 0
